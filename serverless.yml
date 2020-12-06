@@ -30,7 +30,7 @@ plugins:
  
 custom:
   client:
-    bucketName: rs-app-second-version
+    bucketName: rs-app-slv-version
     distributionFolder: build
   s3LocalPath: ${self:custom.client.distributionFolder}/
   s3BucketName: ${self:custom.client.bucketName}
